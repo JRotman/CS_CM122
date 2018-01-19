@@ -299,7 +299,7 @@ if __name__ == "__main__":
     # identify_changes(ref='TTACCGTGCAAGCG', donor='GCACCCAAGTTCG', offset=0)
     # ### /Testing Code
     #
-    genome_name = 'hw1_W_2'
+    genome_name = 'practice_W_3'
     input_folder = '../data/{}'.format(genome_name)
     chr_name = '{}_chr_1'.format(genome_name)
     reads_fn_end = 'reads_{}.txt'.format(chr_name)

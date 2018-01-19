@@ -106,7 +106,7 @@ def snp_calls(ref_string, consensus_string, start_index):
 
 
 if __name__ == "__main__":
-    data_folder = 'hw1_W_2'
+    data_folder = 'practice_W_1'
     input_folder = join('../data', data_folder)
     f_base = '{}_chr_1'.format(data_folder)
     input_fn = join(input_folder, 'aligned_{}.txt'.format(f_base))

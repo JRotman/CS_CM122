@@ -79,7 +79,7 @@ def de_bruijn_reassemble(de_bruijn_graph):
 
 
 if __name__ == "__main__":
-    chr_name = 'hw3all_A_3_chr_1'
+    chr_name = 'spectrum_A_1_chr_1'
     input_folder = '../data/{}'.format(chr_name)
     reads_fn = join(input_folder, 'reads_{}.txt'.format(chr_name))
     reads = read_assembly_reads(reads_fn)
