@@ -73,9 +73,9 @@ def pretty_print_aligned_reads_with_ref(genome_oriented_reads, read_alignments, 
     # next set of lines.
     active_reads = []
     output_str += '\n\n' + '-' * (line_length + 6) + '\n\n'
-    read_indices = np.array([sorted_alignments[j][0]/line_length for j in range(len(sorted_alignments))])
+    read_indices = np.array([sorted_alignments[j][0]//line_length for j in range(len(sorted_alignments))])
 
-    for i in range(len(ref) / line_length):
+    for i in range(len(ref) // line_length):
         next_ref = ref[i * line_length: (i + 1) * line_length]
         read_mask = (read_indices == i)
         new_alignments = sorted_alignments[read_mask]
